@@ -3,7 +3,7 @@ pragma solidity 0.8.11;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
-contract KRY is ERC20 {
+contract Task_2_ERC20 is ERC20 {
     constructor() ERC20("Kryvosheia", "KRY") {
         _mint(msg.sender, 10000);
     }
